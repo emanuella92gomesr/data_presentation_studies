@@ -1,0 +1,54 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.panel {
+  widows: 100%;
+  display: 100%;
+}
+
+.btn-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bi {
+  margin: 1rem;
+  font-size: 1rem;
+  background: lightslategray;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.container {
+  width: 300px;
+  height: 330px;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  background: white;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+}
+.list-group {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0;
+  padding: 2rem;
+  text-align: left;
+  width: 100%;
+}
+.list-item {
+  font-size: 0.9rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0.3rem 0;
+  padding: 0;
+  width: 100%;
+}
+.label {
+  margin-left: 0.3rem;
+}
